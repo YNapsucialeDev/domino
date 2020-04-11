@@ -1,0 +1,25 @@
+{
+  "name": "domino_multi_server",
+  "version": "0.0.1",
+  "description": "Simple server for traditional domino game 4 players",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "game",
+    "multiplayer",
+    "node",
+    "sockets",
+    "domino"
+  ],
+  "author": "Napsuciale Collective",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "localtunnel": "^2.0.0",
+    "socket.io": "^2.3.0"
+  }
+}
